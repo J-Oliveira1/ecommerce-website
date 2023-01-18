@@ -31,8 +31,12 @@ header {
     top: 0%;
     left: 0%;
 }
+.text-size{
+    word-spacing: 18px;
+}
 nav a {
     text-decoration: none;
+    color: black;
 }
 
 section {
@@ -73,8 +77,20 @@ body {
     padding-bottom: 7px;
 }
 
-.product-card {
+.about-border {
+    border-bottom: black solid 3px;
+    font-size: 30px;
+    padding-bottom: 7px;
+    padding-top: 75px;
+    
+}
 
+.product-card {
+    border-radius: 25px;
+    border: 1px;
+    padding: 100px;
+    width: 200px;
+    height: 150px;
 }
 
 .product-card img {
@@ -100,3 +116,8 @@ body {
     
     text-align: right;
 }
+
+footer {
+    background-color: #bf7631;
+}
+
