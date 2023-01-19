@@ -51,6 +51,7 @@ section {
 .flex-wrap{
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .justify-evenly {
@@ -149,4 +150,28 @@ footer {
 #about p {
     padding: 30px;
     padding-bottom: 50px;
+}
+
+.contact-info{
+    width: 100%;
+    padding: 50px 151px;
+    margin: 0px 0;
+    box-sizing: border-box;
+}
+
+.send-button{
+    text-align: right;
+}
+
+.button-color{
+    background-color: #bf7631;
+    color: white;
+    display: inline-block;
+    border: none;
+    padding: 0px 18px;
+    font-size: 12px;
+    margin: 24px 0px;
+    cursor: pointer;
+    text-decoration: none;
+
 }
